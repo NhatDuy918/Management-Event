@@ -2,8 +2,6 @@
 //  EventLine.swift
 //  ManagementEvents
 
-//  Phan Thi Ngoc Cam - MSSV: 13110005
-//
 
 import Foundation
 import UIKit

@@ -2,7 +2,7 @@
 //  ManagementEventsTests.swift
 //  ManagementEventsTests
 //
-//  Phan Thi Ngoc Cam - MSSV: 131100005
+
 //
 
 import XCTest

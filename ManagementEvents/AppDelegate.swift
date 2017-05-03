@@ -1,8 +1,7 @@
 //
 //  AppDelegate.swift
 //  ManagementEvents
-// Phan Thi Ngoc Cam MSSV: 13110005
-//
+
 
 import UIKit
 import CoreData
