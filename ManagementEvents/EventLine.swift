@@ -28,7 +28,7 @@ class EventLine
     {
         var events = [Event]()
         
-        events.append(Event(titled: "Hoc chuyen de 4", description: "Hoc mang khong day"))
+        events.append(Event(titled: "sang ngu", description: "Hoc NMLT"))
         events.append(Event(titled: "Hoc chuyen de 1", description: "Hoc toeic"))
         events.append(Event(titled: "An, ngu", description: "Nghi ngoi, thu gian"))
         
@@ -40,8 +40,8 @@ class EventLine
     {
         var events = [Event]()
         
-        events.append(Event(titled: "An ngu", description: "An ngu, thoai mai thu gian"))
-        events.append(Event(titled: "Doc truyen", description: "Doc truyen"))
+        events.append(Event(titled: "hoc", description: "he thong giam sat mang"))
+        events.append(Event(titled: "hoc", description: "ky thuat truyen so lieu"))
 
         return EventLine(daysOfWeek: "Tuesday", includeEvents: events)
         
@@ -51,7 +51,7 @@ class EventLine
     {
         var events = [Event]()
         
-        events.append(Event(titled: "Hoc TKPMHDT", description: "Di hoc"))
+        events.append(Event(titled: "Hoc HQTCSDL", description: "Di hoc"))
         events.append(Event(titled: "An, nghi ngoi", description: "Nghi ngoi"))
         events.append(Event(titled: "Hoc chuyen de IOS", description: "Di hoc"))
         events.append(Event(titled: "Nghi nghoi", description: "Tam rua, an, nu"))
@@ -65,8 +65,8 @@ class EventLine
     {
         var events = [Event]()
         
-        events.append(Event(titled: "An sang", description: ""))
-        events.append(Event(titled: "Di hoc tren truong", description: "Hoc toan 2"))
+        events.append(Event(titled: "Hoc", description: "KTMT"))
+        events.append(Event(titled: "Di hoc ", description: "Hoc anh van"))
         events.append(Event(titled: "Di choi", description: "Di choi voi ng iu"))
         
         return EventLine(daysOfWeek: "Thusday", includeEvents: events)
@@ -77,8 +77,8 @@ class EventLine
     {
         var events = [Event]()
         
-        events.append(Event(titled: "Di hoc tren truong", description: "Hoc chuyen de 2"))
-        events.append(Event(titled: "Di cho, nau com", description: "Di mua do"))
+        events.append(Event(titled: "o nha", description: "ngu"))
+        events.append(Event(titled: "an com", description: "Di choi"))
         
         return EventLine(daysOfWeek: "Friday", includeEvents: events)
         
@@ -100,7 +100,7 @@ class EventLine
     {
         var events = [Event]()
         
-        events.append(Event(titled: "Di choi voi ban be", description: "To chuc party"))
+        events.append(Event(titled: "choi game", description: "giai tri"))
         events.append(Event(titled: "Ngu trua", description: "Ngu trua toi 3h chieu"))
                 
         return EventLine(daysOfWeek: "Sunday", includeEvents: events)
